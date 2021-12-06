@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.Button {
+  min-width: 127px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0px 25px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  background-color: #FEB000;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.Button:hover {
+  -webkit-box-shadow: 2.5px 4.33px 15px 0 #feb00066;
+          box-shadow: 2.5px 4.33px 15px 0 #feb00066;
+}
+/*# sourceMappingURL=App.css.map */

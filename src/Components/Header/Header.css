@@ -1,0 +1,104 @@
+.header-section {
+  padding: 30px 0px 60px 0px;
+  background-image: url("../Images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-menu .nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu .nav-list .nav-link:link,
+.header-menu .nav-list .nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #535353;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header-menu .nav-list .nav-link:link:hover,
+.header-menu .nav-list .nav-link:visited:hover {
+  color: #FEB000;
+}
+
+.header-menu .menu-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu .menu-btn .menu-bar {
+  color: #011A3E;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+}
+
+.slider-item {
+  display: -ms-grid !important;
+  display: grid !important;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  padding: 20px 0px;
+}
+
+.slider-item .slider-text .slider-title {
+  font-size: 50px;
+  font-weight: 500;
+  color: #011a3e;
+}
+
+.slider-item .slider-text .slider-title span {
+  color: #FEB000;
+  font-weight: bold;
+}
+
+.slider-item .slider-text h5 {
+  font-size: 20px;
+  color: #011a3e;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+
+.slider-item .slider-text p {
+  color: #7a808d;
+  margin-bottom: 50px;
+}
+
+.slick-dots li button:before {
+  color: #FEB000 !important;
+}
+/*# sourceMappingURL=Header.css.map */
