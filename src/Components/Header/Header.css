@@ -1,5 +1,5 @@
 .header-section {
-  padding: 30px 0px 60px 0px;
+  padding: 30px 0px 60px;
   background-image: url("../Images/header_bg.png");
   background-repeat: no-repeat;
   background-position: left center;
@@ -164,10 +164,12 @@
 @media only screen and (max-width: 570px) {
   .container {
     max-width: 100%;
-    padding: 0px 20px;
   }
   .main-nav {
     display: none;
+  }
+  .header-section {
+    padding: 30px 20px 60px;
   }
   .slider-item {
     -ms-grid-columns: auto;
@@ -180,7 +182,7 @@
             order: 1;
   }
   .slider-item .slider-text .slider-title {
-    font-size: 30px;
+    font-size: 32px;
   }
   .slider-item .slider-img {
     max-width: 100%;
