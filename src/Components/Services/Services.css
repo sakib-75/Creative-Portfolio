@@ -1,0 +1,93 @@
+.services-section {
+  padding: 60px 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.services-block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.services-block .service-item {
+  padding: 50px 30px 30px;
+  text-align: center;
+  border: 2px dashed #fff;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.services-block .service-item:hover {
+  border-color: #FEB000;
+  -webkit-box-shadow: 2.5px 4.33px 15px 0 #00000026;
+          box-shadow: 2.5px 4.33px 15px 0 #00000026;
+}
+
+.services-block .service-item .service-title {
+  font-size: 22px;
+  color: #011a3e;
+  font-weight: 500;
+}
+
+.services-block .service-item .readmore-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FEB000;
+  margin-top: 20px;
+}
+
+.services-block .service-item .readmore-icon a {
+  text-decoration: none;
+  color: #011a3e;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.services-block .service-item .readmore-icon a:hover {
+  color: #FEB000;
+}
+
+/*..............Responsive...............*/
+@media only screen and (min-width: 1020px) and (max-width: 1280px) {
+  .services-block .service-item {
+    padding: 50px 10px 30px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1020px) {
+  .services-block {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .services-section {
+    padding: 60px 20px;
+  }
+  .services-block {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    gap: 0;
+    margin-top: 20px;
+  }
+  .services-block .service-item {
+    padding: 50px 0px 30px;
+  }
+}
+/*# sourceMappingURL=Services.css.map */
