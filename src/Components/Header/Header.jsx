@@ -50,7 +50,7 @@ export default function Header() {
               <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
               <Button button_title="Hire Me"/>
             </div>
-            <img src={banner1} alt="" />
+            <img src={banner1} className="slider-img" alt="" />
           </div>
 
           <div className="slider-item">
@@ -60,7 +60,7 @@ export default function Header() {
               <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
               <Button button_title="Hire Me"/>
             </div>
-            <img src={banner2} alt="" />
+            <img src={banner2} className="slider-img" alt="" />
           </div>
 
           <div className="slider-item">
@@ -70,7 +70,7 @@ export default function Header() {
               <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
               <Button button_title="Hire Me"/>
             </div>
-            <img src={banner3} alt="" />
+            <img src={banner3} className="slider-img" alt="" />
           </div>
         </Slider>
 
