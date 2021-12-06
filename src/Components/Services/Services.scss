@@ -1,0 +1,95 @@
+@import "../../Styles/variables";
+
+.services-section {
+    padding: 60px 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.services-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 60px;
+
+    .service-item {
+        padding: 50px 30px 30px;
+        text-align: center;
+        border: 2px dashed #fff;
+        border-radius: 5px;
+        transition: 0.5s;
+
+        &:hover {
+            border-color: $primary-color;
+            box-shadow: 2.5px 4.33px 15px 0 #00000026;
+        }
+
+        .service-title {
+            font-size: 22px;
+            color: $title-color;
+            font-weight: 500;
+        }
+
+        .readmore-icon {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            color: $primary-color;
+            margin-top: 20px;
+
+            a {
+                text-decoration: none;
+                color: $title-color;
+                text-transform: uppercase;
+                display: inline-block;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*..............Responsive...............*/
+
+@media only screen and (min-width: 1020px) and (max-width: 1280px) {
+    .services-block {
+        .service-item {
+            padding: 50px 10px 30px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 780px) and (max-width: 1020px) {
+
+    .services-block {
+        grid-template-columns: auto auto;
+
+    }
+}
+
+
+@media only screen and (max-width: 780px){
+
+    .services-section {
+        padding: 60px 20px;
+    }
+
+    .services-block {
+        grid-template-columns: auto;
+        gap: 0;
+        margin-top: 20px;
+
+        .service-item {
+            padding: 50px 0px 30px;
+        }
+    }
+
+}
