@@ -12,7 +12,7 @@
     padding: 0px 25px;
     letter-spacing: 1px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     color: $btn-color;
     background-color: $primary-color;
     text-transform: uppercase;
@@ -23,5 +23,22 @@
 
     &:hover {
         box-shadow: 2.5px 4.33px 15px 0 #feb00066;
+    }
+}
+
+.section-title {
+    font-size: 45px;
+    color: $title-color;
+    margin-top: 0;
+}
+
+.paragraph {
+    color: $p-color;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 570px) {
+    .section-title {
+        font-size: 32px;
     }
 }
