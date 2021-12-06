@@ -64,6 +64,7 @@
             font-size: 50px;
             font-weight: 500;
             color: $title-color;
+            margin-top: 0;
 
             span {
                 color: $primary-color;
@@ -88,4 +89,112 @@
 
 .slick-dots li button:before {
     color: $primary-color !important;
+}
+
+
+
+/*..................Responsive...............*/
+
+
+@media only screen and (min-width: 1020px) and (max-width: 1280px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .slider-img {
+        max-width: 500px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 1020px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .slider-item {
+        grid-template-columns: auto;
+        row-gap: 30px;
+
+        .slider-text {
+            order: 1;
+        }
+
+        .slider-img {
+            max-width: 100%;
+        }
+    }
+
+}
+
+
+
+@media only screen and (min-width: 570px) and (max-width: 780px) {
+
+    .container {
+        max-width: 510px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .slider-item {
+        grid-template-columns: auto;
+        row-gap: 30px;
+
+        .slider-text {
+            order: 1;
+
+            .slider-title {
+                font-size: 34px;
+            }
+        }
+
+        .slider-img {
+            max-width: 100%;
+        }
+    }
+
+}
+
+
+/* ...........Mobile ..........*/
+
+@media only screen and (max-width: 570px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .slider-item {
+        grid-template-columns: auto;
+        row-gap: 30px;
+
+        .slider-text {
+            order: 1;
+
+            .slider-title {
+                font-size: 30px;
+            }
+        }
+
+        .slider-img {
+            max-width: 100%;
+        }
+    }
+
 }
