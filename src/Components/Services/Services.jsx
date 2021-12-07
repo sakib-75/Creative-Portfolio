@@ -1,9 +1,9 @@
 import React from 'react'
 import '../Services/Services.css'
-import service1_img from '../Images/service1.png';
-import service2_img from '../Images/service2.png';
-import service3_img from '../Images/service3.png';
-import { AiOutlineCaretRight } from "react-icons/ai";
+import service1_img from '../Images/service1.png'
+import service2_img from '../Images/service2.png'
+import service3_img from '../Images/service3.png'
+import { AiOutlineCaretRight } from "react-icons/ai"
 
 export default function Services() {
     return (
