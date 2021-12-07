@@ -1,14 +1,14 @@
 import React from 'react'
 import '../Header/Header.css'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import { FaBars } from "react-icons/fa";
-import Logo from '../Images/logo.png';
-import Button from '../Sub Components/Button';
-import banner1 from '../Images/banner_1.png';
-import banner2 from '../Images/banner_02.png';
-import banner3 from '../Images/banner_03.png';
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import Slider from "react-slick"
+import { FaBars } from "react-icons/fa"
+import Logo from '../Images/logo.png'
+import Button from '../Sub Components/Button'
+import banner1 from '../Images/banner_1.png'
+import banner2 from '../Images/banner_02.png'
+import banner3 from '../Images/banner_03.png'
 
 export default function Header() {
   var settings = {
