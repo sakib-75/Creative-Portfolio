@@ -12,12 +12,12 @@ import banner3 from '../Images/banner_03.png'
 
 export default function Header() {
   var settings = {
-    arrows: false,
+    speed: 500,
     dots: true,
+    arrows: false,
     infinite: true,
     autoplay:false,
     slidesToShow: 1,
-    speed: 500,
     slidesToScroll: 1
   };
 
@@ -42,7 +42,7 @@ export default function Header() {
           </div>
         </div>
         
-        <Slider {...settings}>
+        <Slider {...settings} className="hero-slider">
           <div className="slider-item">
             <div className="slider-text">
               <h1 className="slider-title">We Are Creative <br/> <span>Deneb Agency</span></h1>
