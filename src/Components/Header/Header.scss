@@ -86,9 +86,11 @@
     }
 }
 
-
-.slick-dots li button:before {
-    color: $primary-color !important;
+.hero-slider {
+    .slick-dots li button:before,
+    .slick-dots li.slick-active button:before {
+        color: $primary-color;
+    }
 }
 
 
