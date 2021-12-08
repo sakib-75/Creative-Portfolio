@@ -4,10 +4,6 @@
     padding: 60px 0px;
 }
 
-.center {
-    text-align: center;
-}
-
 .services-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -76,7 +72,7 @@
 }
 
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px) {
 
     .services-section {
         padding: 60px 20px;
