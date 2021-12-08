@@ -2,10 +2,6 @@
   padding: 60px 0px;
 }
 
-.center {
-  text-align: center;
-}
-
 .services-block {
   display: -ms-grid;
   display: grid;
