@@ -28,11 +28,9 @@ export default function Projects() {
   }
 
   var settings = {
-    speed: 500,
     dots: true,
     arrows: false,
-    infinite: true,
-    autoplay:false,
+    autoplay: false,
     slidesToShow: 3,
     slidesToScroll: 2,
     focusOnSelect: true,
