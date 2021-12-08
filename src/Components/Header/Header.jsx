@@ -12,11 +12,10 @@ import banner3 from '../Images/banner_03.png'
 
 export default function Header() {
   var settings = {
-    speed: 500,
     dots: true,
     arrows: false,
-    infinite: true,
-    autoplay:false,
+    autoplay: true,
+    autoplaySpeed: 2500,
     slidesToShow: 1,
     slidesToScroll: 1
   };
