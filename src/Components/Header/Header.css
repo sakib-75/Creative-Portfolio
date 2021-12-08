@@ -99,8 +99,9 @@
   margin-bottom: 50px;
 }
 
-.slick-dots li button:before {
-  color: #FEB000 !important;
+.hero-slider .slick-dots li button:before,
+.hero-slider .slick-dots li.slick-active button:before {
+  color: #FEB000;
 }
 
 /*..................Responsive...............*/
