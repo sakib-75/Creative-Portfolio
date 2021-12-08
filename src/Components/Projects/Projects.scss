@@ -33,7 +33,7 @@
     color: $title-color;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -58,19 +58,18 @@
 
     p {
         color: $p-color;
+        margin-bottom: 50px;
     }
 }
 
 .portfolio-slider {
-    .slick-dots li button::before{
+    .slick-dots li button::before {
         content: '';
         background-color: $primary-color;
         width: 15px;
         height: 5px;
     }
 }
-
-
 
 
 /*..................Responsive...............*/
@@ -82,7 +81,6 @@
             max-width: 280px;
         }
     }
-
 
 }
 
@@ -96,6 +94,7 @@
     }
 
 }
+
 
 @media only screen and (max-width: 780px) {
 
