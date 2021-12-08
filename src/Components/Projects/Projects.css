@@ -1,0 +1,100 @@
+.projects-section {
+  padding: 60px 0px;
+  padding-bottom: 500px;
+  background-image: url("../Images/portfolio-bg.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.portfolio-h2 {
+  margin-bottom: 10px;
+}
+
+.portfolio-p {
+  margin-bottom: 60px;
+}
+
+.filter-button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 30px;
+  margin-bottom: 50px;
+}
+
+.filter-button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 16px;
+  color: #011a3e;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.filter-active {
+  color: #fff;
+  background-color: #FEB000;
+  -webkit-box-shadow: 4px 6.928px 15px 0 #feb00066;
+          box-shadow: 4px 6.928px 15px 0 #feb00066;
+}
+
+.portfolio-item img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.portfolio-item h4 {
+  font-size: 22px;
+  color: #011a3e;
+  margin-bottom: 5px;
+}
+
+.portfolio-item p {
+  color: #7a808d;
+}
+
+.portfolio-slider .slick-dots li button::before {
+  content: '';
+  background-color: #FEB000;
+  width: 15px;
+  height: 5px;
+}
+
+/*..................Responsive...............*/
+@media only screen and (min-width: 1020px) and (max-width: 1280px) {
+  .portfolio-item img {
+    max-width: 280px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1020px) {
+  .portfolio-item img {
+    max-width: 320px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .projects-section {
+    padding: 60px 20px;
+  }
+  .filter-button-area {
+    display: -ms-grid;
+    display: grid;
+  }
+  .portfolio-item img {
+    width: 480px;
+    max-width: 95%;
+  }
+}
+/*# sourceMappingURL=Projects.css.map */
