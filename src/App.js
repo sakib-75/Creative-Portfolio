@@ -4,6 +4,7 @@ import Services from './Components/Services/Services'
 import HireUs from './Components/Hire Us/Hire_us'
 import Completedwork from './Components/Completed Work/Completed_work'
 import Projects from './Components/Projects/Projects'
+import Pricing from './Components/Pricing/Pricing'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HireUs />
       <Completedwork />
       <Projects />
+      <Pricing />
 
     </div>
   );
