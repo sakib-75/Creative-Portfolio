@@ -1,0 +1,96 @@
+@import "../../Styles/variables";
+
+.pricing-section {
+    padding: 60px 0px;
+
+    h2.section-title {
+        margin-bottom: 10px;
+    }
+
+}
+
+.pricing-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 60px;
+}
+
+.pricing-item {
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2.5px 4.33px 15px 0 #00000026;
+    border: 3px dashed #fff;
+    transition: .5s;
+
+    &:hover {
+        border-color: $primary-color;
+        box-shadow: 5px 8.66px 24px 0 #00000026;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin: 5px 0px;
+            color: $p-color;
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+        color: $title-color;
+
+        span {
+            font-size: 20px;
+            color: $primary-color;
+
+            &::before {
+                content: '/ ';
+            }
+        }
+    }
+
+    h3 {
+        font-size: 30px;
+        color: $title-color;
+    }
+}
+
+
+/*..................Responsive...............*/
+
+
+@media only screen and (min-width: 1020px) and (max-width: 1280px) {
+
+    .pricing-item {
+        padding: 20px 0px;
+    }
+
+}
+
+
+@media only screen and (min-width: 780px) and (max-width: 1020px) {
+
+    .pricing-body {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 780px) {
+
+    .pricing-section {
+        padding: 60px 20px;
+    }
+
+    .pricing-body {
+        grid-template-columns: auto;
+        row-gap: 40px;
+    }
+}
