@@ -1,0 +1,92 @@
+.pricing-section {
+  padding: 60px 0px;
+}
+
+.pricing-section h2.section-title {
+  margin-bottom: 10px;
+}
+
+.pricing-body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  margin-top: 60px;
+}
+
+.pricing-item {
+  padding: 35px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #fff;
+  -webkit-box-shadow: 2.5px 4.33px 15px 0 #00000026;
+          box-shadow: 2.5px 4.33px 15px 0 #00000026;
+  border: 3px dashed #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.pricing-item:hover {
+  border-color: #FEB000;
+  -webkit-box-shadow: 5px 8.66px 24px 0 #00000026;
+          box-shadow: 5px 8.66px 24px 0 #00000026;
+}
+
+.pricing-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pricing-item ul li {
+  margin: 5px 0px;
+  color: #7a808d;
+}
+
+.pricing-item h2 {
+  font-size: 40px;
+  color: #011a3e;
+}
+
+.pricing-item h2 span {
+  font-size: 20px;
+  color: #FEB000;
+}
+
+.pricing-item h2 span::before {
+  content: '/ ';
+}
+
+.pricing-item h3 {
+  font-size: 30px;
+  color: #011a3e;
+}
+
+/*..................Responsive...............*/
+@media only screen and (min-width: 1020px) and (max-width: 1280px) {
+  .pricing-item {
+    padding: 20px 0px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1020px) {
+  .pricing-body {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .pricing-section {
+    padding: 60px 20px;
+  }
+  .pricing-body {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    row-gap: 40px;
+  }
+}
+/*# sourceMappingURL=Pricing.css.map */
