@@ -12,7 +12,8 @@ const projectsData = [
         image : <img src={portfolio_2} alt="" />,
         title : 'Design and Develop 2',
         tag : 'Development'
-    },{
+    },
+    {
         image : <img src={portfolio_3} alt="" />,
         title : 'Design and Develop 3',
         tag : 'Development'
