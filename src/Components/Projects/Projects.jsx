@@ -6,15 +6,15 @@ import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 
 export default function Projects() {
-  const [items, setItems] = useState(ProjectsData);
+  const [projectItems, setItems] = useState(ProjectsData);
 
-  const filterItem = (item, btn_id) => {
-    if(item === 'All'){
+  const filterItem = (category, btn_id) => {
+    if(category === 'All'){
       setItems(ProjectsData);
     }
     else{
       const updatedPortfolio = ProjectsData.filter((curItem) => {
-        return curItem.tag === item;
+        return curItem.tag === category;
       });
   
       setItems(updatedPortfolio);
@@ -55,7 +55,7 @@ export default function Projects() {
 
   
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="portfolio">
       <div className="container">
         <h2 className="section-title center portfolio-h2">Our Latest Projects</h2>
         <p className="paragraph center portfolio-p"> When unknow printer took a gallery of type and scramblted it to makea type specimen book</p>
@@ -69,8 +69,8 @@ export default function Projects() {
 
         <Slider {...settings} className="portfolio-slider">
           {
-            items.map((element, index) =>{
-              const {image, title, tag} = element;
+            projectItems.map((item, index) =>{
+              const {image, title, tag} = item;
 
               return(
                 <div key={index} className="portfolio-item">

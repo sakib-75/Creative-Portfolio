@@ -67,6 +67,9 @@
 }
 
 .blog-item .blog-text-part .left-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
           justify-content: flex-start !important;

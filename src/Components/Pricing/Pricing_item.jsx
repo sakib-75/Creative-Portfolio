@@ -1,8 +1,8 @@
 import React from 'react'
-import Button from '../Sub Components/Button'
+import { Link_button } from '../Sub Components/btn_components'
 
 export default function Pricing_item(props) {
-    const { pricing: {image, type, price, timePeriod, packageDesc} } = props;
+    const { pricing: {image, type, price, timePeriod, packageDesc, link} } = props;
 
     return (
         <div className="pricing-item">
@@ -14,8 +14,7 @@ export default function Pricing_item(props) {
                 }
             </ul>
             <h2>{price} <span>{timePeriod}</span></h2>
-
-            <Button button_title="Start Now"/>
+            <Link_button button_title="start now" link={link}/>
 
         </div>
     );

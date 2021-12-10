@@ -1,8 +1,8 @@
 import React from 'react'
-import { AiOutlineCaretRight } from "react-icons/ai"
+import { Read_more } from '../Sub Components/btn_components'
 
 export default function Blog_item(props) {
-    const {blog_data : {image, date, title, description}} = props;
+    const {blog_data : {image, date, title, description, link}} = props;
 
     return (
         <div className="blog-item">
@@ -11,9 +11,9 @@ export default function Blog_item(props) {
                 <span>{date}</span>
                 <a className="blog-title" href="#">{title}</a>
                 <p>{description}</p>
-                <div className="readmore-icon left-align">
-                    <AiOutlineCaretRight/>
-                    <a href="#"> Read More</a>
+                
+                <div className="left-align">
+                    <Read_more link={link}/>
                 </div>
             </div>
             

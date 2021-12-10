@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Hire Us/Hire-us.css'
 import Hireusimg from '../Images/Hire-us-img.png'
-import Button from '../Sub Components/Button'
+import { Link_button } from '../Sub Components/btn_components'
 
 export default function Hire_us() {
     return (
-        <section className="Hire-us-section">
+        <section className="Hire-us-section" id="about-us">
             <div className="container Hire-us-body">
                 <img src={Hireusimg} alt="" />
                 <div className="Hire-us-text">
@@ -17,7 +17,7 @@ export default function Hire_us() {
                         Nam faucibus elementum arcu, eget eleifend tortor.
                     </p>
 
-                    <Button button_title="Read More" />
+                    <Link_button button_title="Read More" link="#"/>
                 </div>
 
             </div>

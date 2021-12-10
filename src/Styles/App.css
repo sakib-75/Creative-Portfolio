@@ -46,25 +46,22 @@ code {
   color: #FEB000;
 }
 
-.Button {
-  min-width: 127px;
-  height: 45px;
-  line-height: 45px;
-  padding: 0px 25px;
+.link-btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 30px;
   letter-spacing: 1px;
-  font-size: 16px;
   font-weight: 600;
   color: #FFF;
   background-color: #FEB000;
   text-transform: uppercase;
-  border: none;
   border-radius: 25px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  cursor: pointer;
 }
 
-.Button:hover {
+.link-btn:hover {
   -webkit-box-shadow: 2.5px 4.33px 15px 0 #feb00066;
           box-shadow: 2.5px 4.33px 15px 0 #feb00066;
 }
