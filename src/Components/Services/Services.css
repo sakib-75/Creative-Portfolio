@@ -32,32 +32,6 @@
   font-weight: 500;
 }
 
-.services-block .service-item .readmore-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #FEB000;
-  margin-top: 20px;
-}
-
-.services-block .service-item .readmore-icon a {
-  text-decoration: none;
-  color: #011a3e;
-  text-transform: uppercase;
-  display: inline-block;
-}
-
-.services-block .service-item .readmore-icon a:hover {
-  color: #FEB000;
-}
-
 /*..............Responsive...............*/
 @media only screen and (min-width: 1020px) and (max-width: 1280px) {
   .services-block .service-item {

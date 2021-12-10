@@ -28,25 +28,6 @@
             font-weight: 500;
         }
 
-        .readmore-icon {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            justify-content: center;
-            color: $primary-color;
-            margin-top: 20px;
-
-            a {
-                text-decoration: none;
-                color: $title-color;
-                text-transform: uppercase;
-                display: inline-block;
-
-                &:hover {
-                    color: $primary-color;
-                }
-            }
-        }
     }
 
 }
