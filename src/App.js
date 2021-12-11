@@ -6,6 +6,7 @@ import Completedwork from './Components/Completed Work/Completed_work'
 import Projects from './Components/Projects/Projects'
 import Pricing from './Components/Pricing/Pricing'
 import Blog from './Components/Blog/Blog'
+import {Footer} from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Pricing />
       <Blog />
+      <Footer />
 
     </div>
   );
