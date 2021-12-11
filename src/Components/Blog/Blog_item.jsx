@@ -9,7 +9,7 @@ export default function Blog_item(props) {
             {image}
             <div className="blog-text-part">
                 <span>{date}</span>
-                <a className="blog-title" href="#">{title}</a>
+                <a className="blog-title" href={link}>{title}</a>
                 <p>{description}</p>
                 
                 <div className="left-align">
