@@ -5,6 +5,9 @@ import Logo from '../Images/logo.png'
 import { FaPhone } from "react-icons/fa"
 import { FaEnvelope } from "react-icons/fa"
 import { FaMapMarkerAlt } from "react-icons/fa"
+import { FaFacebookF } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
 
 export function Footer() {
     return (
@@ -17,6 +20,11 @@ export function Footer() {
                         <p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, 
                             euismod nec tortor praesent consequat urna.
                         </p>
+                        <div className="footer-social">
+                            <a href="#"> <FaFacebookF /> </a>
+                            <a href="#"> <FaInstagram /> </a>
+                            <a href="#"> <FaTwitter /> </a>
+                        </div>
                     </div>
 
                     <div className="footer-sec">

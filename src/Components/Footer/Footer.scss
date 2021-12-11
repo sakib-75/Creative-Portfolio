@@ -72,6 +72,28 @@
                 color: $p-color;
             }
 
+            .footer-social {
+                display: flex;
+                gap: 10px;
+
+                a {
+                    color: $primary-color;
+                    background-color: #F9E6D4;
+                    height: 35px;
+                    width: 35px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 0.5s;
+
+                    &:hover {
+                        color: #fff;
+                        background-color: $primary-color;
+                    }
+                }
+            }
+
             h4 {
                 margin: 0;
                 font-size: 22px;
@@ -80,10 +102,10 @@
                 &::after {
                     content: "";
                     display: block;
-                    background: url('../Images/footer-h4-after.png');
-                    max-width: 38px;
                     height: 2px;
+                    max-width: 38px;
                     margin-top: 5px;
+                    background: url('../Images/footer-h4-after.png');
                 }
             }
 
