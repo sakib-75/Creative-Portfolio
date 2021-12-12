@@ -115,9 +115,9 @@
                 list-style: none;
 
                 li a {
-                    display: block;
+                    display: inline-block;
                     text-decoration: none;
-                    margin: 10px 0px;
+                    margin: 5px 0px;
                     color: $p-color;
                     transition: 0.5s;
 
@@ -239,10 +239,10 @@
         width: 100%;
         padding: 20px;
         grid-template-columns: auto;
-        row-gap: 30px;
+        row-gap: 15px;
 
         h3 {
-            font-size: 24px;
+            font-size: 22px;
         }
     }
 

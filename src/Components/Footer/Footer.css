@@ -135,9 +135,9 @@
 }
 
 .footer .footer-body .footer-sec ul li a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
-  margin: 10px 0px;
+  margin: 5px 0px;
   color: #7a808d;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -239,10 +239,10 @@
     padding: 20px;
     -ms-grid-columns: auto;
         grid-template-columns: auto;
-    row-gap: 30px;
+    row-gap: 15px;
   }
   .footer-cta-body h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .white-link-btn {
     text-align: left;

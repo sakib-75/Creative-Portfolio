@@ -46,7 +46,7 @@ code {
   color: #FEB000;
 }
 
-.link-btn {
+.link-btn, .contact-submit {
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -61,9 +61,17 @@ code {
   transition: 0.5s;
 }
 
-.link-btn:hover {
+.link-btn:hover, .contact-submit:hover {
   -webkit-box-shadow: 2.5px 4.33px 15px 0 #feb00066;
           box-shadow: 2.5px 4.33px 15px 0 #feb00066;
+}
+
+.contact-submit {
+  border: none;
+  margin-top: 10px;
+  height: 45px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .section-title {

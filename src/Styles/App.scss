@@ -62,6 +62,15 @@ code {
     }
 }
 
+.contact-submit{
+    @extend .link-btn;
+    border: none;
+    margin-top: 10px;
+    height: 45px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .section-title {
     font-size: 45px;
     color: $title-color;
