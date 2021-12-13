@@ -49,7 +49,7 @@ export function Footer() {
                         </div>
                         <div className="footer-icon-part">
                             <FaMapMarkerAlt />
-                            <span>125, Park street aven, Brocklyn, Newyork.</span>
+                            <span>Dhaka, Bangladesh</span>
                         </div>
                     </div>
                 </div>
