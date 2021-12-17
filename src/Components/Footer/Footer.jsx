@@ -1,13 +1,13 @@
-import React from 'react'
-import '../Footer/Footer.css'
-import {Link_button} from '../Sub Components/btn_components'
-import Logo from '../Images/logo.png'
-import { FaPhone } from "react-icons/fa"
-import { FaEnvelope } from "react-icons/fa"
-import { FaMapMarkerAlt } from "react-icons/fa"
-import { FaFacebookF } from "react-icons/fa"
-import { FaTwitter } from "react-icons/fa"
-import { FaInstagram } from "react-icons/fa"
+import React from 'react';
+import '../Footer/Footer.css';
+import {Link_button} from '../Sub Components/btn_components';
+import Logo from '../Images/logo.png';
+import { FaPhone } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export function Footer() {
     return (
@@ -45,7 +45,7 @@ export function Footer() {
                         </div>
                         <div className="footer-icon-part">
                             <FaEnvelope />
-                            <a href="mailto: sakibulislam285@gmail.com">sakibulislam285@gmail.com</a>
+                            <a href="mailto: sakib75.cse@gmail.com">sakib75.cse@gmail.com</a>
                         </div>
                         <div className="footer-icon-part">
                             <FaMapMarkerAlt />

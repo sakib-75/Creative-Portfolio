@@ -1,5 +1,5 @@
-import React from 'react'
-import { AiOutlineCaretRight } from "react-icons/ai"
+import React from 'react';
+import { AiOutlineCaretRight } from "react-icons/ai";
 
 export function Link_button(props) {
     const {button_title, link} = props;

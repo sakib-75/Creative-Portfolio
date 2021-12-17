@@ -1,6 +1,6 @@
-import React from 'react'
-import '../Pricing/Pricing.css'
-import PricingItem from '../Pricing/Pricing_item'
+import React from 'react';
+import '../Pricing/Pricing.css';
+import PricingItem from '../Pricing/Pricing_item';
 import { PricingData } from './Pricing_data';
 
 export default function Pricing() {

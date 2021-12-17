@@ -1,9 +1,9 @@
-import React from 'react'
-import '../Services/Services.css'
-import service1_img from '../Images/service1.png'
-import service2_img from '../Images/service2.png'
-import service3_img from '../Images/service3.png'
-import { Read_more } from '../Sub Components/btn_components'
+import React from 'react';
+import '../Services/Services.css';
+import service1_img from '../Images/service1.png';
+import service2_img from '../Images/service2.png';
+import service3_img from '../Images/service3.png';
+import { Read_more } from '../Sub Components/btn_components';
 
 export default function Services() {
     return (

@@ -1,9 +1,9 @@
-import React from 'react'
-import '../Completed Work/Completed-work.css'
-import achivment1 from '../Images/achivment1.png'
-import achivment2 from '../Images/achivment2.png'
-import achivment3 from '../Images/achivment3.png'
-import achivment4 from '../Images/achivment4.png'
+import React from 'react';
+import '../Completed Work/Completed-work.css';
+import achivment1 from '../Images/achivment1.png';
+import achivment2 from '../Images/achivment2.png';
+import achivment3 from '../Images/achivment3.png';
+import achivment4 from '../Images/achivment4.png';
 
 export default function Completed_work() {
     return (

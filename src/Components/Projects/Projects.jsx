@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import '../Projects/Projects.css'
-import ProjectsData from './projects_data'
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import Slider from "react-slick"
+import React, { useState } from 'react';
+import '../Projects/Projects.css';
+import ProjectsData from './projects_data';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 export default function Projects() {
   const [projectItems, setItems] = useState(ProjectsData);

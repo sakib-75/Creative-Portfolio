@@ -1,7 +1,7 @@
-import React from 'react'
-import '../Blog/Blog.css'
-import BlogData from './Blog_data'
-import BlogItem from './Blog_item'
+import React from 'react';
+import '../Blog/Blog.css';
+import BlogData from './Blog_data';
+import BlogItem from './Blog_item';
 
 export default function Blog() {
     return (
