@@ -19,7 +19,7 @@ export default function Contact() {
                                 <option value="">Graphics Design</option>
                                 <option value="">App Development</option>
                                 <option value="">Web Development</option>
-                                <option value="">SEO and Merkrting</option>
+                                <option value="">SEO and Marketing</option>
                             </select>
                             <textarea className='contact-message' placeholder='Message'></textarea>
                             <input type="submit" className='contact-submit' value="Submit Now" />
