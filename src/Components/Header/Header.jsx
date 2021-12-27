@@ -23,7 +23,7 @@ export default function Header() {
 
   const menuFunction = () => {
     var x = document.querySelector(".main-nav");
-    if (x.style.display == "block") {
+    if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
