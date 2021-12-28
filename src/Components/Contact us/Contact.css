@@ -25,9 +25,24 @@
 
 .contact-sec .form-control svg {
   position: absolute;
-  top: 18px;
+  top: 50%;
   right: 10px;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   visibility: hidden;
+}
+
+.contact-sec .form-control .contact-input {
+  display: block;
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #f0f0f0;
+  outline: none;
+  padding: 15px 30px 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .contact-sec .form-control .contact-message {
@@ -35,17 +50,19 @@
   margin-bottom: 30px;
   width: 100%;
   font-size: 16px;
-  border: 2px solid transparent;
+  border: 2px solid #f0f0f0;
   outline: none;
-  padding: 15px 25px 15px 20px;
+  padding: 15px 30px 15px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 25px;
-  -webkit-box-shadow: 2.5px 4.33px 15px 0 #00000026;
-          box-shadow: 2.5px 4.33px 15px 0 #00000026;
+  border-radius: 10px;
   height: 150px;
   font-family: inherit;
   resize: vertical;
+}
+
+.contact-sec .form-control.msg svg {
+  top: 20px;
 }
 
 .contact-sec .form-control.success .contact-input,
@@ -66,21 +83,6 @@
 .contact-sec .form-control.error svg:nth-child(3) {
   visibility: visible;
   color: #e74c3c;
-}
-
-.contact-input {
-  display: block;
-  margin-bottom: 30px;
-  width: 100%;
-  font-size: 16px;
-  border: 2px solid transparent;
-  outline: none;
-  padding: 15px 25px 15px 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 25px;
-  -webkit-box-shadow: 2.5px 4.33px 15px 0 #00000026;
-          box-shadow: 2.5px 4.33px 15px 0 #00000026;
 }
 
 .map iframe {

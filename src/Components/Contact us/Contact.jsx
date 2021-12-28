@@ -27,14 +27,16 @@ export default function Contact() {
                                 <FaCheckCircle />
                                 <FaExclamationCircle />
                             </div>
-                            <select className='contact-input' title='Select Option' required>
-                                <option value="">Choose Service</option>
-                                <option value="1">Web Design</option>
-                                <option value="2">Graphics Design</option>
-                                <option value="3">App Development</option>
-                                <option value="4">Web Development</option>
-                                <option value="5">SEO and Marketing</option>
-                            </select>
+                            <div className="form-control">
+                                <select className='contact-input' title='Select Option' required>
+                                    <option value="">Choose Service</option>
+                                    <option value="1">Web Design</option>
+                                    <option value="2">Graphics Design</option>
+                                    <option value="3">App Development</option>
+                                    <option value="4">Web Development</option>
+                                    <option value="5">SEO and Marketing</option>
+                                </select>
+                            </div>
                             <div className="form-control">
                                 <textarea id='message' className='contact-message' onChange={messageChange} placeholder='Message'></textarea>
                                 <FaCheckCircle />
@@ -57,53 +59,63 @@ export default function Contact() {
 function nameChange(){
     const Name = document.getElementById('name');
     if(Name.value.trim() !== ''){
-        setSuccess(Name);
+        setSuccess(Name, 'inp');
     }
     else{
-        setError(Name);
+        setError(Name, 'inp');
     }
 }
 
 function emailChange(){
     const Email = document.getElementById('email');
     if(validateEmail(Email) === true){
-        setSuccess(Email);
+        setSuccess(Email, 'inp');
     }
     else{
-        setError(Email);
+        setError(Email, 'inp');
     }
 }
 
 function phoneChange(){
     const Phone = document.getElementById('phone');
     if(Phone.value.trim() !== ''){
-        setSuccess(Phone);
+        setSuccess(Phone, 'inp');
     }
     else{
-        setError(Phone);
+        setError(Phone, 'inp');
     }
 }
 
 function messageChange() {
     const Message = document.getElementById('message');
     if(Message.value.trim() !== ''){
-        setSuccess(Message);
+        setSuccess(Message, 'textarea');
     }
     else {
-        setError(Message);
+        setError(Message, 'textarea');
     }
 
 }
 
 
-function setSuccess(input){
+function setSuccess(input, inp_type){
     const form_control = input.parentElement;
-    form_control.className = 'form-control success';
+    if(inp_type === 'textarea'){
+        form_control.className = 'form-control msg success';
+    }
+    else{
+        form_control.className = 'form-control success';
+    }
 }
 
-function setError(input){
+function setError(input, inp_type){
     const form_control = input.parentElement;
-    form_control.className = 'form-control error';
+    if(inp_type === 'textarea'){
+        form_control.className = 'form-control msg error';
+    }
+    else{
+        form_control.className = 'form-control error';
+    }
 }
 
 

@@ -24,12 +24,11 @@
     margin-bottom: 30px;
     width: 100%;
     font-size: 16px;
-    border: 2px solid transparent;
+    border: 2px solid #f0f0f0;
     outline: none;
-    padding: 15px 25px 15px 20px;
+    padding: 15px 30px 15px 20px;
     box-sizing: border-box;
-    border-radius: 25px;
-    box-shadow: 2.5px 4.33px 15px 0 #00000026;
+    border-radius: 10px;
 }
 
 .contact-sec {
@@ -38,9 +37,14 @@
 
         svg {
             position: absolute;
-            top: 18px;
+            top: 50%;
             right: 10px;
+            transform: translate(0, -50%);
             visibility: hidden;
+        }
+
+        .contact-input {
+            @include form-input;
         }
 
         .contact-message {
@@ -48,6 +52,12 @@
             height: 150px;
             font-family: inherit;
             resize: vertical;
+        }
+    }
+
+    .form-control.msg {
+        svg {
+            top: 20px;
         }
     }
 
@@ -76,10 +86,6 @@
             color: #e74c3c;
         }
     }
-}
-
-.contact-input {
-    @include form-input;
 }
 
 .map {

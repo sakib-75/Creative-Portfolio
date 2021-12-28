@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Hire Us/Hire-us.css';
 import Hireusimg from '../Images/Hire-us-img.png';
-import { Link_button } from '../Sub Components/btn_components';
+import { LinkButton } from '../Sub Components/btn_components';
 
 export default function Hire_us() {
     return (
@@ -17,7 +17,7 @@ export default function Hire_us() {
                         Nam faucibus elementum arcu, eget eleifend tortor.
                     </p>
 
-                    <Link_button button_title="Read More" link="#"/>
+                    <LinkButton button_title="Read More" link="#"/>
                 </div>
 
             </div>

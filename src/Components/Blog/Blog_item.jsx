@@ -1,5 +1,5 @@
 import React from 'react'
-import { Read_more } from '../Sub Components/btn_components'
+import { ReadMore } from '../Sub Components/btn_components'
 
 export default function Blog_item(props) {
     const {blog_data : {image, date, title, description, link}} = props;
@@ -13,7 +13,7 @@ export default function Blog_item(props) {
                 <p>{description}</p>
                 
                 <div className="left-align">
-                    <Read_more link={link}/>
+                    <ReadMore link={link}/>
                 </div>
             </div>
             

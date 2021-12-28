@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineCaretRight } from "react-icons/ai";
 
-export function Link_button(props) {
+export function LinkButton(props) {
     const {button_title, link} = props;
 
     return (
@@ -11,7 +11,7 @@ export function Link_button(props) {
     );
 }
 
-export function Read_more(props) {
+export function ReadMore(props) {
     const {link} = props;
     
     return (

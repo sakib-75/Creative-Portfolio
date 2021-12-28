@@ -9,7 +9,7 @@ import Logo from '../Images/logo.png';
 import banner1 from '../Images/banner_1.png';
 import banner2 from '../Images/banner_02.png';
 import banner3 from '../Images/banner_03.png';
-import { Link_button } from '../Sub Components/btn_components';
+import { LinkButton } from '../Sub Components/btn_components';
 
 export default function Header() {
   var settings = {
@@ -20,21 +20,6 @@ export default function Header() {
     slidesToShow: 1,
     slidesToScroll: 1
   };
-
-  const menuFunction = () => {
-    var x = document.querySelector(".main-nav");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-
-  const menuFunctionOff = () => {
-    var x = document.querySelector(".main-nav");
-    x.style.display = "none";
-  }
-
 
   return (
     <header className="header-section">
@@ -51,7 +36,7 @@ export default function Header() {
               <li><a href="#blog" className="nav-link">Blog</a></li>
                 <li><a href="#contact-us" className="nav-link">Contact us</a></li>
             </ul>
-            <Link_button button_title="Hire Us" link="#"/>
+            <LinkButton button_title="Hire Us" link="#"/>
           </nav>
           
           <button className="menu-bar" onClick={menuFunction}> <FaAlignLeft/> </button>
@@ -63,7 +48,7 @@ export default function Header() {
               <h1 className="slider-title">We Are Creative <br/> <span>Deneb Agency</span></h1>
               <h5>We Are Professional Freelance Web Designer</h5>
               <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
-              <Link_button button_title="Hire Me" link="#"/>
+              <LinkButton button_title="Hire Me" link="#"/>
             </div>
             <img src={banner1} className="slider-img" alt="" />
           </div>
@@ -73,7 +58,7 @@ export default function Header() {
               <h1 className="slider-title">We Are Creative <br/> <span>Deneb Agency</span></h1>
               <h5>We Are Professional Freelance Web Designer</h5>
               <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
-              <Link_button button_title="Hire Me" link="#"/>
+              <LinkButton button_title="Hire Me" link="#"/>
             </div>
             <img src={banner2} className="slider-img" alt="" />
           </div>
@@ -83,7 +68,7 @@ export default function Header() {
               <h1 className="slider-title">We Are Creative <br/> <span>Deneb Agency</span></h1>
               <h5>We Are Professional Freelance Web Designer</h5>
               <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
-              <Link_button button_title="Hire Me" link="#"/>
+              <LinkButton button_title="Hire Me" link="#"/>
             </div>
             <img src={banner3} className="slider-img" alt="" />
           </div>
@@ -96,5 +81,17 @@ export default function Header() {
 }
 
 
+const menuFunction = () => {
+  var x = document.querySelector(".main-nav");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
+const menuFunctionOff = () => {
+  var x = document.querySelector(".main-nav");
+  x.style.display = "none";
+}
 
