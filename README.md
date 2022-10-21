@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-<a href="https://creative-portfolio-sakib.netlify.app/"><h2> Click here to visit this site </h2></a>
+[Click here to visit this site](https://creative-portfolio-sakib.netlify.app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
